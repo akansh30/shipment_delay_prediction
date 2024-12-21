@@ -33,9 +33,13 @@ pip install -r requirements.txt
 ### Step 5: Train and Save the Model
 
 1.Open the shipment.ipynb file in a Jupyter Notebook environment.
+
 2.Train the logistic regression model.
+
 3.Save the trained model as a .pkl file.
+
 4.Create a models folder inside the fastapi_deployment directory.
+
 5.Place the saved model in the models folder.
 
 ### Step 6: Start the API Server
@@ -56,7 +60,9 @@ http://127.0.0.1:8000/
 ### Step 7: Test the API Using Postman
 
 1.Open Postman.
+
 2.Create a new POST request.
+
 3.Set the URL to:
 ```bash
 http://127.0.0.1:8000/predict/
@@ -70,6 +76,7 @@ http://127.0.0.1:8000/predict/
 }
 ```
 5.Send the request.
+
 6.You will receive the response:
 ```bash
 {
