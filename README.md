@@ -5,8 +5,8 @@
 
 ## Project Description
 This project focuses on predicting shipment delays using machine learning. It includes three main stages:
-1. **Data Preparation & Exploration**: Cleaning the dataset, handling missing values, and performing exploratory data analysis (EDA) to identify useful features.
-2. **Model Development**: Building a classification model to predict delays and experimenting with at least two machine learning algorithms (e.g., Logistic Regression, Decision Tree, Random Forest). Evaluation is performed using metrics like accuracy, precision, recall, and F1 score.
+1. **Data Preparation & Exploration**: Cleaning the dataset, handling missing values, and performing EDA to identify useful features.
+2. **Model Development**: Building a classification model to predict delays and experimenting with two machine learning algorithms ( Logistic Regression, Decision Tree). Evaluation is performed using metrics like accuracy, precision, recall, and F1 score.
 3. **Deployment**: Creating an API using FastAPI to accept shipment details and return a prediction (Delayed/On Time).
 
 ---
